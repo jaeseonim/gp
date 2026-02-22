@@ -4,7 +4,7 @@
 
 ## 🚀 주요 특징 (Key Features)
 
-- 이터 정제: resting_temp 라벨 통합 및 노이즈 라벨 제거를 통한 데이터 품질 향상.
+- 데이터 정제: resting_temp 라벨 통합 및 노이즈 라벨 제거를 통한 데이터 품질 향상.
 - 단계별 실험 설계: 베이스라인부터 튜닝 모델까지 총 5단계의 체계적인 실험 진행.
 - 불균형 데이터 최적화: 가중치 학습(Cost-sensitive Learning)을 통한 소수 클래스 성능 개선.
 - 하이퍼파라미터 튜닝: RandomizedSearchCV와 PredefinedSplit을 이용한 XGBoost 최적화.
