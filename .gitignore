@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data & Weights (가장 중요!)
+data/
+outputs/
+*.pth
+*.h5
+*.onnx
+
+# IDE
+.vscode/
+.idea/
