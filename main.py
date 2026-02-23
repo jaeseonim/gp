@@ -47,7 +47,7 @@ def main():
     # --- [Experiment 05: XGBoost Tuned] ---
     print("\n--- [Experiment 05: XGBoost Tuned] ---")
     # n_iter는 시간 관계상 20 정도로 시작하고, 나중에 성능을 더 올리고 싶으면 50~100으로 늘리세요.
-    best_xgb, best_params = tune_model("xgboost", X_train, y_train, X_val, y_val, config, le, n_iter=20)
+    best_xgb, best_params = tune_model("xgboost", X_train, y_train, X_val, y_val, config, le, n_iter=100)
 
     # ⭐ 중요: 튜닝된 모델을 평가할 때도 반드시 sample_weight=s_weights를 넣어줘야 합니다!
     train_and_evaluate(
