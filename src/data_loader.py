@@ -28,3 +28,10 @@ def load_and_split_data(config):
     X_val, y_val = get_x_y(val_df)
     
     return X_train, y_train, X_val, y_val
+
+def load_test_data(config):
+    df = pd.read_csv(config.TEST_DATA_PATH)
+    # 학습 때와 동일하게 Target과 Group 컬럼 분리
+    X_test = df.drop(columns=[config.TARGET_COL, config.GROUP_COL])
+    y_test = df[config.TARGET_COL]
+    return X_test, y_test
