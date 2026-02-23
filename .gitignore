@@ -15,6 +15,7 @@ Thumbs.db
 
 # Data & Weights (가장 중요!)
 data/
+experiments/visualization/
 outputs/
 *.pth
 *.h5
