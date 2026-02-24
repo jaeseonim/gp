@@ -20,6 +20,7 @@ outputs/
 *.pth
 *.h5
 *.onnx
+document/
 
 # IDE
 .vscode/
