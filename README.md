@@ -16,7 +16,7 @@ gp/
 ├── data/
 │   ├── raw/            # 원본 CSV 파일 (1~9번) 
 │       ├── test/            # 원본 CSV 파일 (10~11번)
-│   └── processed/      # 정제된 통합 데이터 
+│   └── processed/      # 정제된 통합 데이터
 ├── src/
 │   ├── data_loader.py  # 7:2:2 Group Split 로직
 │   ├── model_utils.py  # 모델 생성 및 가중치 계산

@@ -10,7 +10,7 @@ def tune_model(model_name, X_train, y_train, X_val, y_val, config, le, n_iter=10
     """
     고정된 Validation set을 사용하여 하이퍼파라미터 튜닝을 수행 (IndexError 수정 버전)
     """
-    # 1. Balanced 모델 객체 생성
+    # 1. Balanced 모델 객체 생성   
     base_model = get_balanced_model(model_name, config)
     
     # 2. 데이터 합치기 (PredefinedSplit은 합쳐진 데이터를 입력받아야 함)
